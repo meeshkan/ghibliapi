@@ -6,7 +6,7 @@ My notes on testing using schemathesis.
 
 1. Ran `npm install`.
 1. Created and activated a python virtual environment using `virtualenv`.
-1. Determined that the run command was `node index.js` using the following sources the Heroku Procfile.
+1. Determined that the run command was `node index.js` using the Heroku Procfile.
 1. Determined what the port was by reading the source code, which makes the [default port `3000` in `index.js`](./index.js). This is also printed to the console when the app starts.
 1. Found an [OpenAPI spec](https://ghibliapi.herokuapp.com/swagger.yaml) on their [website](https://ghibliapi.herokuapp.com/). Downloaded this and checked it into [index.yml](./index.yml).
 1. Ran `pip install schemathesis`.
