@@ -1,3 +1,7 @@
+## From Mike
+
+Check out my [notes](./MIKE_NOTES.md) to see what I did. Below is the original README.md.
+
 # Studio Ghibli API
 
 The [Studio Ghibli API](https://ghibliapi.herokuapp.com) catalogs the people, places, and things found in the worlds of Ghibli. It was created to help users discover resources, consume them via HTTP requests, and interact with them in whatever way makes sense. Navigation can be found on the left sidebar, and the right sidebar shows examples of returned objects for successful calls.
