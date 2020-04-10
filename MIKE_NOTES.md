@@ -107,3 +107,7 @@ not_a_server_error            568 / 631 passed          FAILED
 ```
 
 This is a legitimate bug in the ghibliapi. When `-1` is used as a limit it crashes the app.
+
+## Mocker
+
+None needed.
