@@ -2,7 +2,7 @@
 
 My notes on testing using schemathesis.
 
-## Setup
+## Builder
 
 1. Ran `npm install`.
 1. Created and activated a python virtual environment using `virtualenv`.
@@ -16,7 +16,7 @@ run --base-url http://localhost:3000 .\index.yml` and got an error: `Error: json
 1. Used swaggerhub to resolve several issues in the yaml and convert to OpenAPI 3.0, as Swagger broke `schemathesis` for some reason (even though it claims to support swagger).
 1. This allowed `schemathesis` to run succesfully.
 
-## First result
+## Runner
 
 ```bash
 schemathesis 
