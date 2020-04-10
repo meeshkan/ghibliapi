@@ -106,6 +106,4 @@ not_a_server_error            568 / 631 passed          FAILED
 ===================== 5 passed, 5 failed in 11.86s =====================
 ```
 
-## Analysis
-
 This is a legitimate bug in the ghibliapi. When `-1` is used as a limit it crashes the app.
